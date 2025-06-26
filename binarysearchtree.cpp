@@ -64,7 +64,10 @@ class BinaryTree
         {
             // step 6a. Make the left child of parent point to the new node
             parent->leftchild = newNode;
+            
 
+            // 6B. EXIT
+            return;
         }
 
     }
