@@ -75,6 +75,8 @@ class BinaryTree
         //7a: make the right child of the parent point to the new node
         parent->rightChild = newNode;
 
+        //7b: return from the function
+        return;
         }
 
     }
